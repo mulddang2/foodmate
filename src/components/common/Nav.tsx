@@ -213,6 +213,7 @@ const Nav = () => {
         sessionStorage.removeItem(NICKNAME);
         setIsSignedIn(false);
         alert('로그아웃 되었습니다.');
+        navigate('/')
       },
     },
   ];
