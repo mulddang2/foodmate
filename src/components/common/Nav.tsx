@@ -202,7 +202,7 @@ const Nav = () => {
     {
       children: <SubMenuTitle>마이페이지</SubMenuTitle>,
       onClick: () => {
-        navigate(`/mypage/profile`);
+        navigate(`/mypage/modify-profile`);
       },
     },
     {
